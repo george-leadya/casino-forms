@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Casino Forms 0.1\n"
+"POT-Creation-Date: 2016-08-03 13:50+0800\n"
+"PO-Revision-Date: 2016-08-03 13:53+0800\n"
+"Last-Translator: \n"
+"Language-Team: Leadya <team@leadya.com.ph>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: casino-forms.php:82
+msgid "Play Page Menu"
+msgstr "Jouer la page Menu"
+
+#: casino-forms.php:139
+msgid "Play Page Configuration"
+msgstr "Jouer Page de configuration"
+
+#: casino-forms.php:176
+msgid "Casino Play Page"
+msgstr "Casino Jouer la page"
+
+#: casino-forms.php:182
+msgid "Include Theme Style?"
+msgstr "Inclure Thème style?"
+
+#: casino-forms.php:184
+msgid "Add Styles from your current theme."
+msgstr "Ajouter Styles de votre thème actuel."
+
+#: casino-forms.php:189
+msgid "Logo"
+msgstr "Logo"
+
+#: casino-forms.php:198
+msgid "Set Logo"
+msgstr "Set Logo"
+
+#: casino-forms.php:199
+msgid "Remove Logo"
+msgstr "Retirer Logo"
+
+#: casino-forms.php:207
+msgid "Form ID"
+msgstr "Formulaire ID"
+
+#: casino-forms.php:214
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: casino-forms.php:222
+msgid "First Bonus Widget Contents"
+msgstr "Premier Bonus Widget Sommaire"
+
+#: casino-forms.php:236
+msgid "Second Bonus Widget Contents"
+msgstr "Deuxième Bonus Widget Sommaire"
+
+#: casino-forms.php:250
+msgid "Footer Credits"
+msgstr "Pied de page Crédits"
+
+#: casino-forms.php:263
+msgid "Custom Header Script"
+msgstr "Script-tête personnalisé"
+
+#: casino-forms.php:266
+msgid "Appended inside the &lt;head&gt; tag"
+msgstr "Annexer à l'intérieur du &lt;head&gt; tag"
+
+#: casino-forms.php:271
+msgid "Custom Footer Script"
+msgstr "Pied de page personnalisé Script"
+
+#: casino-forms.php:274
+msgid "Appended before the &lt;/body&gt; tag"
+msgstr "Annexé avant la &lt;/body&gt; tag"
+
+#: casino-forms.php:493
+msgid "Casino Forms"
+msgstr "Casino Forms"
+
+#: casino-forms.php:498
+msgid "Casino Forms Settings"
+msgstr "Casino Forms Paramètres"
+
+#: casino-forms.php:508
+msgid "Global CSS"
+msgstr "CSS mondial"
+
+#: templates/page-play.php:7
+msgid "Register"
+msgstr "Registre"
+
+#: templates/page-play.php:8
+msgid "Start Playing in just a few seconds"
+msgstr "Commencer à jouer en quelques secondes"
+
+#: templates/page-play.php:15
+msgid "Step 1 of 2"
+msgstr "Étape 1 de 2"
+
+#: templates/page-play.php:16
+msgid "Step 2 of 2"
+msgstr "Étape 2 de 2"
+
+#: templates/page-play.php:26 templates/page-play.php:51
+#: templates/page-play.php:63
+msgid "Exclusive"
+msgstr "Exclusif"
+
+#: templates/page-play.php:75
+msgid "Safe and Secure"
+msgstr "Sûr et sécurisé"
+
+#: templates/page-play.php:78
+msgid "Quick and easy"
+msgstr "Rapide et facile"
+
+#: templates/play-form.php:3
+msgid "Name"
+msgstr "Prénom"
+
+#: templates/play-form.php:4
+msgid "Enter your name"
+msgstr "Entrez votre nom"
+
+#: templates/play-form.php:8
+msgid "Email"
+msgstr "Email"
+
+#: templates/play-form.php:8
+msgid "(Must be valid)"
+msgstr "(Doit être valide)"
+
+#: templates/play-form.php:9
+msgid "Enter your email"
+msgstr "Entrer votre Email"
+
+#: templates/play-form.php:13 templates/play-form.php:15
+msgid "Select Country"
+msgstr "Sélectionner le pays"
+
+#: templates/play-form.php:30
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: templates/play-form.php:31
+msgid "Area Code"
+msgstr "Indicatif régional"
+
+#: templates/play-form.php:32
+msgid "Enter your phone number"
+msgstr "Entrez votre numéro de téléphone"
+
+#: templates/play-form.php:37
+msgid "Continue to Step 2"
+msgstr "Passez à l'étape 2"

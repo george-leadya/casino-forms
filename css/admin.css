@@ -1,0 +1,26 @@
+#playpagetable{
+	margin: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    background-color: #f9f9f9;
+}
+
+#playpagetable tr{
+	border-bottom: solid 1px #ddd;
+}
+
+#playpagetable th, #playpagetable td{
+	padding: 8px;
+}
+
+#playpagetable td textarea {
+    min-height: 100px;
+    width: 100%;
+}
+
+.casino-settings textarea {
+    min-height: 700px;
+	max-width: 700px;
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+*, body, p{ font: 400 14px/1.2em 'PT Sans', sans-serif; }
+h1{ font: 900 62px/60px 'lato', sans-serif; margin: 0 auto; }
+h2{ font: 900 52px/50px 'lato', sans-serif; margin: 0 auto; }
+h3{ font: 900 46px/44px 'lato', sans-serif; margin: 0 auto; }
+h4{ font: 900 30px/28px 'lato', sans-serif; margin: 0 auto; }
+h5{ font: 900 900 20px/24px 'lato', sans-serif; margin: 0 auto; }
+h6{ font: 900 14px/18px 'lato', sans-serif; margin: 0 auto; }
