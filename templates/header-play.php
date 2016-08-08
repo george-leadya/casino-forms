@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
 	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<title><?php cf_leady_title(); ?></title>
+	<title><?php cf_leadya_title(); ?></title>
 	
 	<!-- Mobile Specific Metas
 	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->

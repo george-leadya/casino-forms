@@ -33,10 +33,10 @@ function cf_leadya_get_template_part( $slug, $name = '' ) {
 /**
  * Page Title
  */
-function cf_leady_title(){
+function cf_leadya_title(){
 	global $post;
 	
-	echo the_title_attribute(array('post'=>$post));
+	echo apply_filters( 'cf_leadya_title', get_the_title($post->ID) );
 }
 
 /**

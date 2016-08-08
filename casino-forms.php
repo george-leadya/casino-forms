@@ -66,7 +66,9 @@ class Casino_Forms{
 		add_action( 'plugins_loaded',	array( $this, 'register_my_menu' ) );
 		
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+		
 		add_action( 'init',				array( $this, 'remove_editor_init' ) );
+		add_action( 'init',				array( $this, 'yoast_filters' ) );
 		add_action( 'add_meta_boxes',	array( $this, 'wpdocs_register_meta_boxes' ) );
 		add_action( 'save_post',		array( $this, 'save_metabox' ), 10, 2 );
 		
@@ -126,6 +128,16 @@ class Casino_Forms{
 				remove_post_type_support( 'page', 'post-formats' );
 				remove_post_type_support( 'page', 'custom-fields' );
 			}
+		}
+	}
+	
+	public function yoast_filters(){
+		if( defined('WPSEO_VERSION') ){
+			$frontend = WPSEO_Frontend::get_instance();
+			
+			add_action( 'wp_head', array( $frontend, 'front_page_specific_init' ), 0 );
+			add_action( 'cf_leadya_head', array( $frontend, 'head' ), 1 );
+			add_filter( 'cf_leadya_title', array( $frontend, 'title' ), 15, 3 );
 		}
 	}
 	
