@@ -30,13 +30,13 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 define('LEADYA_PLUGINDIR', plugin_dir_path( __FILE__ ));
 define('LEADYA_PLUGINURI', plugin_dir_url( __FILE__ ));
 
-register_activation_hook( __FILE__, 'leadya_activate_hook' );
-register_deactivation_hook( __FILE__, 'leadya_deactivate_hook' );
+register_activation_hook( __FILE__, 'cf_leadya_activate_hook' );
+register_deactivation_hook( __FILE__, 'cf_leadya_deactivate_hook' );
 
-function leadya_activate_hook(){
+function cf_leadya_activate_hook(){
 }
 
-function leadya_deactivate_hook(){
+function cf_leadya_deactivate_hook(){
 	flush_rewrite_rules();
 }
 
@@ -70,11 +70,11 @@ class Casino_Forms{
 		add_action( 'add_meta_boxes',	array( $this, 'wpdocs_register_meta_boxes' ) );
 		add_action( 'save_post',		array( $this, 'save_metabox' ), 10, 2 );
 		
-		add_action( 'leadya_head',		array( $this, 'leadya_head') );
-		add_action( 'leadya_head',		array( $this, 'leadya_theme_style') );
-		add_action( 'leadya_head',		array( $this, 'leadya_google_analytics') );
+		add_action( 'cf_leadya_head',	array( $this, 'leadya_head') );
+		add_action( 'cf_leadya_head',	array( $this, 'leadya_theme_style') );
+		add_action( 'cf_leadya_head',	array( $this, 'leadya_google_analytics') );
 		
-		add_action( 'leadya_footer',	array( $this, 'leadya_footer') );
+		add_action( 'cf_leadya_footer',	array( $this, 'leadya_footer') );
 		
 		add_filter( 'leadya_play_template', array( $this, 'leadya_play_redirect' ), 10, 2 );
 		
@@ -524,5 +524,5 @@ class Casino_Forms{
 	}
 }
 
-global $forms;
-$forms = new Casino_Forms();
+global $cf_lead_forms;
+$cf_lead_forms = new Casino_Forms();

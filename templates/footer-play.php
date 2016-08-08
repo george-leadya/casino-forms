@@ -35,7 +35,7 @@
 	<!-- End Document
 	–––––––––––––––––––––––––––––––––––––––––––––––––– --><?php
 	
-	leadya_footer();
+	cf_leadya_footer();
 	
 ?></body>
 </html>

@@ -8,13 +8,13 @@
 	<!-- Basic Page Needs
 	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<title><?php leady_title(); ?></title>
+	<title><?php cf_leady_title(); ?></title>
 	
 	<!-- Mobile Specific Metas
 	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1"><?php
 	
-	leadya_head();
+	cf_leadya_head();
 	
 ?></head>
 <body <?php body_class('casino-forms-page') ?>>

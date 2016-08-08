@@ -26,14 +26,14 @@
 								<span class="bonus-tag"><?php _e('Exclusive', 'leadya'); ?></span>
 								<img class="bonus-ad" src="<?php echo LEADYA_PLUGINURI . '/images/ads/ads-'. $r1 .'.png'; ?>" />
 								<div class="bonus-content"><?php
-									leadya_top_bonus();
+									cf_leadya_top_bonus();
 								?></div>
 							</div><?php
 						}
 					?></div><?php
 					
 					/*<p class="aligncenter"> - <?php printf( '%s <a href="%s">%s</a>', __('or log in', 'leadya'), '#', __('here', 'leadya') ); ?> - </p>*/
-					leadya_get_template_part('play', 'form');
+					cf_leadya_get_template_part('play', 'form');
 				?></div>
 				
 				<div class="columns six play-bonus">
@@ -51,7 +51,7 @@
 								<span class="bonus-tag"><?php _e('Exclusive', 'leadya'); ?></span>
 								<img class="bonus-ad" src="<?php echo LEADYA_PLUGINURI . '/images/ads/ads-'. $r1 .'.png'; ?>" />
 								<div class="bonus-content"><?php
-									leadya_top_bonus();
+									cf_leadya_top_bonus();
 								?></div>
 							</div><?php
 						}
@@ -63,7 +63,7 @@
 								<span class="bonus-tag"><?php _e('Exclusive', 'leadya'); ?></span>
 								<img class="bonus-ad" src="<?php echo LEADYA_PLUGINURI . '/images/ads/ads-'. $r2 .'.png'; ?>" />
 								<div class="bonus-content"><?php
-									leadya_bottom_bonus();
+									cf_leadya_bottom_bonus();
 								?></div>
 							</div><?php
 						}

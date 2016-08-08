@@ -1,7 +1,7 @@
 <?php
 
-leadya_get_template_part('header', 'play');
+cf_leadya_get_template_part('header', 'play');
 
-leadya_get_template_part('page', 'play');
+cf_leadya_get_template_part('page', 'play');
 
-leadya_get_template_part('footer', 'play');
+cf_leadya_get_template_part('footer', 'play');
