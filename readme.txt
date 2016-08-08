@@ -56,6 +56,11 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
+= 0.1.2 =
+* FIX: Public Function conflicts with Leadya Theme Framework
+* UPDATE: Add WordPress (Yoast) SEO compatibility
+* NEW: Added Plugin Updater
+
 = 0.1.1 =
 * FIX: Mobile Responsive
 * FIX: Area Code and Geo Location not working

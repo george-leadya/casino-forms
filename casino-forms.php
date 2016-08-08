@@ -3,7 +3,7 @@
  * Plugin Name: Casino Forms
  * Plugin URI:  http://leadya.com.ph/
  * Description: Custom Template engine for Casino and Game site's play pages
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      George L.
  * Author URI:  http://iamgeorgeleis.com/
  * License:     GPL2
