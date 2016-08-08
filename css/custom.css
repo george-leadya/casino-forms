@@ -477,7 +477,7 @@ there.
 
 @media (max-width: 600px) {
 	#certificates .columns.six { width: 48%; }
-	#certificates .columns.six img { width: 100%; }
+	.cert { font: 700 16px/1.4em 'PT Sans', sans-serif; }
 	.bonus-ad { display: none; }
 }
 
@@ -485,4 +485,6 @@ there.
 @media (max-width: 420px) {
 	.tabs li { width: 50%; }
 	.tabs li span { padding: 15px; }
+	#certificates .columns.six{ float: none; width: 100%; margin: 0 auto 1em; text-align: center; }
+	.button, button, input[type="submit"], input[type="reset"], input[type="button"] { padding: 0; }
 }

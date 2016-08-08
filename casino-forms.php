@@ -40,9 +40,14 @@ function leadya_deactivate_hook(){
 	flush_rewrite_rules();
 }
 
-include_once( LEADYA_PLUGINDIR . '/includes/misc-functions.php');
-include_once( LEADYA_PLUGINDIR . '/includes/walker-nav-menu.php');
-include_once( LEADYA_PLUGINDIR . '/includes/pagetemplater.php');
+include_once( LEADYA_PLUGINDIR . 'includes/plugin-updater.php');
+include_once( LEADYA_PLUGINDIR . 'includes/misc-functions.php');
+include_once( LEADYA_PLUGINDIR . 'includes/walker-nav-menu.php');
+include_once( LEADYA_PLUGINDIR . 'includes/pagetemplater.php');
+
+if ( is_admin() ) {
+    new CF_Leadya_GitHubPluginUpdater( __FILE__, 'george-leadya', "casino-forms" );
+}
 
 class Casino_Forms{
 	
