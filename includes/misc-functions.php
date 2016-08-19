@@ -112,7 +112,7 @@ function cf_leadya_casino_form_action(){
 	global $post;
 	
 	$protocol = "http://";
-	$endpoint = "adduser2.php";
+	$endpoint = "adduser.php";
 	
 	if( is_ssl() ){ //action to take for page using SSL
 		$protocol = "https://";
