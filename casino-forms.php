@@ -3,7 +3,7 @@
  * Plugin Name: Casino Forms
  * Plugin URI:  http://leadya.com.ph/
  * Description: Custom Template engine for Casino and Game site's play pages
- * Version:     0.1.2
+ * Version:     0.1.3
  * Author:      George L.
  * Author URI:  http://iamgeorgeleis.com/
  * License:     GPL2
@@ -182,6 +182,7 @@ class Casino_Forms{
 		$bonus2 = get_post_meta( $post->ID, '_leadya_bonus_b', true);
 		$footer_creds = get_post_meta( $post->ID, '_footer_creds', true);
 		$with_theme = get_post_meta( $post->ID, '_leadya_with_theme', true);
+		$withActiveLink = get_post_meta( $post->ID, '_leadya_with_link', true);
 		$head_script = get_post_meta( $post->ID, '_leadya_head_script', true);
 		$foot_script = get_post_meta( $post->ID, '_leadya_foot_script', true);
 		
@@ -197,6 +198,13 @@ class Casino_Forms{
 						<th scope="row"><label for="form_id"><?php _e('Include Theme Style?', 'leadya'); ?></label></th>
 						<td>
 							<label><input type="checkbox" class="regular-checkbox" name="with_theme" id="with_theme" value="1" <?php checked(1, $with_theme); ?> /> <?php _e('Add Styles from your current theme.', 'leadya'); ?></label>
+						</td>
+					</tr>
+					
+					<tr>
+						<th scope="row"><label for="form_id"><?php _e('Activate Links?', 'leadya'); ?></label></th>
+						<td>
+							<label><input type="checkbox" class="regular-checkbox" name="with_link" id="with_link" value="1" <?php checked(1, $withActiveLink); ?> /> <?php _e('Enable Menu Item Links.', 'leadya'); ?></label>
 						</td>
 					</tr>
 					
@@ -372,6 +380,12 @@ class Casino_Forms{
 			update_post_meta( $post->ID, '_leadya_with_theme', 1 );
 		} else {
 			delete_post_meta( $post->ID, '_leadya_with_theme');
+		}
+		
+		if( !empty($_POST['with_link']) ){
+			update_post_meta( $post->ID, '_leadya_with_link', 1 );
+		} else {
+			delete_post_meta( $post->ID, '_leadya_with_link');
 		}
 		
 		if( !empty($_POST['head_script']) ){

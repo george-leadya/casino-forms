@@ -21,11 +21,23 @@ class Walker_Playpage_Menu extends Walker {
      * Note: Menu objects include url and title properties, so we will use those.
      */
     function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
-        $output .= sprintf( "\n<li><span data-href='%s'%s>%s</span></li>\n",
-            $item->url,
-            ( $item->object_id === get_the_ID() ) ? ' class="current"' : '',
-            $item->title
-        );
+		global $post;
+		
+		$hasActiveLink = get_post_meta($post->ID, '_leadya_with_link', true);
+		
+		if( $hasActiveLink === false ){
+			$output .= sprintf( "\n<li><span data-href='%s'%s>%s</span></li>\n",
+				$item->url,
+				( $item->object_id === get_the_ID() ) ? ' class="current"' : '',
+				$item->title
+			);
+		} else {
+			$output .= sprintf( "\n<li><a href='%s'%s>%s</a></li>\n",
+				$item->url,
+				( $item->object_id === get_the_ID() ) ? ' class="current"' : '',
+				$item->title
+			);
+		}
     }
 
 }
