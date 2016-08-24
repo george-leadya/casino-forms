@@ -27,8 +27,14 @@ jQuery(document).ready(function($) {
 		return this.optional(element) || phone_number.length > 9 && phone_number.match(/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/);
 	}, "Please specify a valid phone number");
 	
-	
 	$('.tabs li.next span').on('click', function(e){
 		$('#form_collector').submit();
 	});
+	
+	if( $('#lang_sel a.lang_sel_sel').length ){
+		$('#lang_sel a.lang_sel_sel').on('click', function(e){
+			$('body').toggleClass('showlang');
+			e.preventDefault();
+		});
+	}
 });

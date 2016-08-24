@@ -48,13 +48,16 @@ ul.menu {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	
+	text-align: right;
 	color: #ffffff;
 }
 ul.menu li {
 	display: inline-block;
-	position: relative;
-	margin: 0 auto;
-	width: 17%;
+    position: relative;
+	padding: 0 10px;
+    margin: 0 auto;
+    width: auto;
 }
 ul.menu li, ul.menu li a, ul.menu li span {
 	font: 700 18px/74px 'lato', sans-serif;
@@ -105,6 +108,12 @@ ul.menu li.branding img {
 	-moz-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
 }
+
+/* WPML: Language Selector
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#lang_sel ul ul{ display: none; }
+.showlang #lang_sel ul li ul, .no-touch #lang_sel ul li:hover ul{ display: block; }
+
 /* Main
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #primary {
@@ -148,7 +157,7 @@ ul.menu li.branding img {
 .tabs li.next span {
 	cursor: pointer;
 }
-.tabs li.next:hover {
+.no-touch .tabs li.next:hover {
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 	font-weight: 700;
 	color: #ffffff;
@@ -305,8 +314,10 @@ fieldset input#form_user_phone {
 }
 .bonus-ad {
 	position: absolute;
-	right: -20px;
-	top: 50%;
+    min-height: 100%;
+    right: -2%;
+    top: 50%;
+	
 	transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -478,7 +489,25 @@ there.
 @media (max-width: 600px) {
 	#certificates .columns.six { width: 48%; }
 	.cert { font: 700 16px/1.4em 'PT Sans', sans-serif; }
+	.bonus-content{ padding: 15px 15px 15px 54px; }
 	.bonus-ad { display: none; }
+	#header .columns{
+		float: left;
+		width: 48%;
+	}
+	#header img {
+		max-width: 100%;
+		height: auto;
+	}
+	.toggle { margin: 15px 0 0; }
+	ul.menu { padding: 0; }
+	
+	.bonus-container h1 { font: 900 46px/46px 'lato', sans-serif; }
+	.bonus-container h2 { font: 900 42px/42px 'lato', sans-serif; }
+	.bonus-container h3 { font: 900 36px/36px 'lato', sans-serif; }
+	.bonus-container h4 { font: 900 28px/28px 'lato', sans-serif; }
+	.bonus-container h5 { font: 900 24px/24px 'lato', sans-serif; }
+	.bonus-container h6 { font: 900 14px/14px 'lato', sans-serif; }
 }
 
 /* Mobile */
@@ -487,4 +516,15 @@ there.
 	.tabs li span { padding: 15px; }
 	#certificates .columns.six{ float: none; width: 100%; margin: 0 auto 1em; text-align: center; }
 	.button, button, input[type="submit"], input[type="reset"], input[type="button"] { padding: 0; }
+	.bonus-content { padding: 15px; }
+	.bonus-tag {
+		left: auto;
+		right: 0;
+		
+		transform: rotate(45deg) translate(30%, -10%);
+		-o-transform: rotate(45deg) translate(30%, -10%);
+		-ms-transform: rotate(45deg) translate(30%, -10%);
+		-moz-transform: rotate(45deg) translate(30%, -10%);
+		-webkit-transform: rotate(45deg) translate(30%, -10%);
+	}
 }

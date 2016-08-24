@@ -432,7 +432,7 @@ class Casino_Forms{
 		wp_register_style( 'cf_leadya_custom', trailingslashit(LEADYA_PLUGINURI) . 'css/custom.css' );
 		wp_register_style( 'theme_style', get_bloginfo('stylesheet_url') );
 		
-		wp_register_script( 'modrnizr', trailingslashit(LEADYA_PLUGINURI) . 'js/modernizr.min.js' );
+		wp_register_script( 'cf_leadya_modrnizr', trailingslashit(LEADYA_PLUGINURI) . 'js/modernizr.min.js' );
 		
 		if( $this->clean === false ){
 			wp_print_styles( 'cf_leadya_googlefonts' );

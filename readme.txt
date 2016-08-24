@@ -58,6 +58,7 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 = 0.1.4 =
 * FIX: Main Menu Walker (Play pages with inactive links have active links)
+* FIX: WPML Language Selector - Submenus are not toggling when tap on mobile
 
 = 0.1.3 =
 * FIX: Form action link (Affiliate Redirect)
