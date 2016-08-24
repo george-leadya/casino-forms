@@ -1,15 +1,16 @@
 <?php
 /*
  * Plugin Name: Casino Forms
- * Plugin URI:  http://leadya.com.ph/
- * Description: Custom Template engine for Casino and Game site's play pages
- * Version:     0.1.3
- * Author:      George L.
+ * Plugin URI:  http://iamgeorgeleis.com/plugins/casino-forms/
+ * Description: Allows WordPress pages to set as the play page (Page with Casino Affiliate Form)
+ * Version:     0.1.4
+ * Author:      george_leis2000
  * Author URI:  http://iamgeorgeleis.com/
  * License:     GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Domain Path: /languages
  * Text Domain: my-toolset
+ * Donate link: http://paypal.me/georgeleis
  
 Casino Forms is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -524,7 +525,7 @@ class Casino_Forms{
 	
 	public function wpdocs_settings_page_callback(){
 		?><div class="wrap casino-settings"><div id="icon-tools" class="icon32"></div>
-			<h2><?php _e('Casino Forms Settings', 'leadya'); ?></h2>
+			<h2><?php _e('Casino Forms Settings', 'leadya'); ?> <a href="http://paypal.me/georgeleis/25USD" target="_blank"><img src="<?php echo trailingslashit(LEADYA_PLUGINURI); ?>images/button-1.png" alt="Donate" width="130px" /></a></h2>
 			
 			<form method="post" action="options.php"><?php
 			

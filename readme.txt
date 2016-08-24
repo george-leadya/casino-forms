@@ -1,18 +1,18 @@
 === Casino Forms ===
 Contributors: george_leis2000
-Donate link: #
-Tags: page template, casino, games, play pages, play
+Donate link: http://paypal.me/georgeleis
+Tags: page template, casino, slot games, poker, free play, bonus, rewards, review
 Requires at least: 3.0.1
-Tested up to: 3.4
-Stable tag: 0.1
+Tested up to: 4.6
+Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Allows WordPress pages to set as the play page (Page with Casino Affiliate Form)
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Custom Template engine for Casino and Game site's play pages. This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
@@ -29,7 +29,7 @@ stable.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+This plugin do not use a typical installation of WordPress plugin. Download the zip file and follow the instructions below
 
 1. Upload the plugin files to the `/wp-content/plugins/casino-forms` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
@@ -55,6 +55,9 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+= 0.1.4 =
+* FIX: Main Menu Walker (Play pages with inactive links have active links)
 
 = 0.1.3 =
 * FIX: Form action link (Affiliate Redirect)
