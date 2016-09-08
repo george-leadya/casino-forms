@@ -3,7 +3,7 @@
  * Plugin Name: Casino Forms
  * Plugin URI:  http://iamgeorgeleis.com/plugins/casino-forms/
  * Description: Allows WordPress pages to set as the play page (Page with Casino Affiliate Form)
- * Version:     0.1.4
+ * Version:     0.1.5
  * Author:      george_leis2000
  * Author URI:  http://iamgeorgeleis.com/
  * License:     GPL2

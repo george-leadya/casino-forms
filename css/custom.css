@@ -445,6 +445,20 @@ there.
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
+@media (max-height: 750px) {
+	ul.tabs { width: 10%; float: left; }
+	.panels { float: right; width: 90%; }
+	.tabs li span { padding: 15px 20px; font: 700 12px/1.2em 'lato', sans-serif; }
+	.tabs li{ transform: rotate(-90deg) translate(-94%, -16%); width: 120px; }
+	.tabs li.current-menu-item { transform: rotate(-90deg) translate(-31%, -16%); }
+	.six.columns.play-form .bonus-wrapper{ margin: 0 auto 20px 15px; float: right; width: 150px; }
+	.bonus-ad { display: none; }
+	.bonus-content { padding: 40px 15px 15px; }
+	.bonus-container h1 { font: 900 32px/32px 'lato', sans-serif; }
+	fieldset { margin: 0 auto 15px; }
+	fieldset input[type="email"], fieldset input[type="number"], fieldset input[type="search"], fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="url"], fieldset input[type="password"], fieldset textarea { height: 36px; }
+}
+
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
 
@@ -463,6 +477,7 @@ there.
 /* Tablet landscape */
 @media (max-width: 1150px) {
 	.toggle{ display: block; }
+	ul#menu-primary-navigation.menu { padding: 0; }
 	ul.menu li{ display: none; }
 	ul.menu li.branding{ display: block; float: left; }
 	ul.menu li.branding img {
@@ -527,4 +542,504 @@ there.
 		-moz-transform: rotate(45deg) translate(30%, -10%);
 		-webkit-transform: rotate(45deg) translate(30%, -10%);
 	}
+}
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	#header { margin: 0 auto 1.5em; }
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- Asus Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	fieldset { margin: 0 auto 10px; }
+	fieldset input[type="email"], fieldset input[type="number"], fieldset input[type="search"], fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="url"], fieldset input[type="password"], fieldset textarea { height: 40px; }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.six.columns.play-form .bonus-wrapper { width: 110px; }
+	.bonus-container h1 { font: 900 22px/22px 'lato', sans-serif; }
+	.bonus-container h2 { font: 900 20px/20px 'lato', sans-serif; }
+	.bonus-container h3 { font: 900 18px/18px 'lato', sans-serif; }
+	.bonus-container h4 { font: 900 16px/16px 'lato', sans-serif; }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	#header { margin: 0 auto 15px; }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.page-title { font: 900 26px/36px 'lato', sans-serif; }
+	#primary .tabs li { font: 700 12px/1.2em 'lato', sans-serif; }
+	.tabs li span { padding: 5px 10px; }
+	.six.columns.play-form .bonus-wrapper { display: none; }
+	.six.columns.play-bonus .bonus-wrapper { display: block; }
+	.bonus-sep { display: none; }
+	.bonus-container:last-child{ display: none; }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	#header .three.columns img{ max-height: 40px; }
+	#header .toggle { margin: 12px 0 0; }
+	#header #lang_sel { margin: 12px 10px 0; }
+	.content-heading{ display: none; }
+	ul.tabs { width: 10%; float: left; }
+	.panels { float: right; width: 90%; }
+	.tabs li span { padding: 15px 20px; font: 700 12px/1.2em 'lato', sans-serif; }
+	.tabs li{ transform: rotate(-90deg) translate(-94%, -65%); width: 120px; }
+	.tabs li.current-menu-item { transform: rotate(-90deg) translate(-31%, -65%); }
+	.six.columns.play-form .bonus-wrapper{ margin: 0 auto 20px 15px; float: right; width: 150px; }
+	.bonus-ad { display: none; }
+	.bonus-content { padding: 40px 15px 15px; }
+	.bonus-container h1 { font: 900 32px/32px 'lato', sans-serif; }
+	fieldset { margin: 0 auto 15px; }
+	fieldset input[type="email"], fieldset input[type="number"], fieldset input[type="search"], fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="url"], fieldset input[type="password"], fieldset textarea { height: 36px; }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	#header { margin: 0 auto 1.5em; }
+	.tabs li span { padding: 10px 15px; }
+	fieldset { margin: 0 auto 15px; }
+	.bonus-container h1 img, .bonus-container h2 img, .bonus-container h3 img, .bonus-container h4 img, .bonus-container h5 img, .bonus-container h6 img{ width: 10%; height: auto; }
+	fieldset input[type="email"], fieldset input[type="number"], fieldset input[type="search"], fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="url"], fieldset input[type="password"], fieldset textarea { height: 38px; }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  	#header .three.columns img{ max-height: 60px; }
+	.toggle { margin: 22px 0 0; }
+	#header #lang_sel { margin: 22px 10px 0; }
+	.content-heading{ display: none; }
+	ul.tabs { width: 10%; float: left; }
+	.panels { float: right; width: 90%; }
+	.tabs li span { padding: 15px 20px; font: 700 12px/1.2em 'lato', sans-serif; }
+	.tabs li{ transform: rotate(-90deg) translate(-94%, -65%); width: 120px; }
+	.tabs li.current-menu-item { transform: rotate(-90deg) translate(-31%, -65%); }
+	.six.columns.play-form .bonus-wrapper{ margin: 0 auto 20px 15px; float: right; width: 150px; }
+	.bonus-ad { display: none; }
+	.bonus-content { padding: 40px 15px 15px; }
+	.bonus-container h1 { font: 900 32px/32px 'lato', sans-serif; }
+	fieldset { margin: 0 auto 15px; }
+	fieldset input[type="email"], fieldset input[type="number"], fieldset input[type="search"], fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="url"], fieldset input[type="password"], fieldset textarea { height: 36px; }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	#header { margin: 0 auto 1.5em; }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+	.content-heading{ display: none; }
+	ul.tabs { width: 10%; float: left; }
+	.panels { float: right; width: 90%; }
+	.tabs li span { padding: 15px 20px; font: 700 12px/1.2em 'lato', sans-serif; }
+	.tabs li{ transform: rotate(-90deg) translate(-94%, -54%); width: 120px; }
+	.tabs li.current-menu-item { transform: rotate(-90deg) translate(-31%, -54%); }
+	.six.columns.play-form .bonus-wrapper{ margin: 0 auto 20px 15px; float: right; width: 150px; }
+	.bonus-ad { display: none; }
+	.bonus-content { padding: 40px 15px 15px; }
+	.bonus-container h1 { font: 900 32px/32px 'lato', sans-serif; }
+	fieldset { margin: 0 auto 15px; }
+	fieldset input[type="email"], fieldset input[type="number"], fieldset input[type="search"], fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="url"], fieldset input[type="password"], fieldset textarea { height: 36px; }
+}
+
+/* ----------- Galaxy S7 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-width: 1440px)
+  and (min-device-width: 360px) {
+	#header{ margin: 0 auto 10px; }
+}
+
+/* Portrait	*/
+@media only screen
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-width: 1440px)
+  and (min-device-width: 360px)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-width: 1440px)
+  and (min-device-width: 360px)
+  and (orientation: landscape) {
+	#header .three.columns img { max-height: 40px; }
+	#header .toggle { margin: 12px 0 0; }
+	#header #lang_sel { margin: 12px 10px 0; }
+	.tabs li span { padding: 10px 20px; }
+	.tabs li { transform: rotate(-90deg) translate(-105%, -72%); }
+	.tabs li.current-menu-item { transform: rotate(-90deg) translate(-35%, -72%); }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+	#header{ margin: 0 auto 10px; }
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
 }

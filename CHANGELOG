@@ -1,3 +1,6 @@
+= 0.1.5 =
+* FIX: Mobile Layout
+
 = 0.1.4 =
 * FIX: Main Menu Walker (Play pages with inactive links have active links)
 * FIX: WPML Language Selector - Submenus are not toggling when tap on mobile
