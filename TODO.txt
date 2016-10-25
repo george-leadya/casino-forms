@@ -1,0 +1,6 @@
+Casino Forms plugin TODO
+1. Lead Capture (Reports, Statistics and Analytics)
+2. Advance Settings Page
+3. Advance Form Integration
+4. Advance WPML language selector integration
+5. Automatic Template Override

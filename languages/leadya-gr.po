@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Casino Forms 0.1\n"
+"POT-Creation-Date: 2016-09-22 16:20+0800\n"
+"PO-Revision-Date: 2016-10-19 09:46+0800\n"
+"Last-Translator: \n"
+"Language-Team: Leadya <team@leadya.com.ph>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: casino-forms.php:91
+msgid "Play Page Menu"
+msgstr "Παίξτε Σελίδα Μενού"
+
+#: casino-forms.php:156
+msgid "Play Page Configuration"
+msgstr "Παίξτε Σελίδα διαμόρφωσης"
+
+#: casino-forms.php:194
+msgid "Casino Play Page"
+msgstr "Καζίνο Παίξτε Σελίδα"
+
+#: casino-forms.php:200
+msgid "Include Theme Style?"
+msgstr "Περιλαμβάνουν Style θέμα;"
+
+#: casino-forms.php:202
+msgid "Add Styles from your current theme."
+msgstr "Προσθέστε στυλ από την τρέχουσα θέμα σας."
+
+#: casino-forms.php:207
+msgid "Activate Links?"
+msgstr "Ενεργοποιήστε Σύνδεσμοι;"
+
+#: casino-forms.php:209
+msgid "Enable Menu Item Links."
+msgstr "Ενεργοποίηση Μενού Στοιχείο Σύνδεσμοι."
+
+#: casino-forms.php:214
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: casino-forms.php:223
+msgid "Set Logo"
+msgstr "Set Logo"
+
+#: casino-forms.php:224
+msgid "Remove Logo"
+msgstr "Κατάργηση Logo"
+
+#: casino-forms.php:232
+msgid "Form ID"
+msgstr "μορφή ID"
+
+#: casino-forms.php:239
+msgid "Google Analytics ID"
+msgstr "Αναγνωριστικό Google Analytics"
+
+#: casino-forms.php:247
+msgid "First Bonus Widget Contents"
+msgstr "Μπόνους Πρώτης Περιεχόμενα Widget"
+
+#: casino-forms.php:261
+msgid "Second Bonus Widget Contents"
+msgstr "Δεύτερον Μπόνους Περιεχόμενα Widget"
+
+#: casino-forms.php:275
+msgid "Footer Credits"
+msgstr "υποσέλιδο Credits"
+
+#: casino-forms.php:288
+msgid "Custom Header Script"
+msgstr "Προσαρμοσμένη κεφαλίδα Script"
+
+#: casino-forms.php:291
+msgid "Appended inside the &lt;head&gt; tag"
+msgstr "Επισυνάπτει στο εσωτερικό του &lt;head&gt; tag"
+
+#: casino-forms.php:296
+msgid "Custom Footer Script"
+msgstr "Προσαρμοσμένη Υποσέλιδο Script"
+
+#: casino-forms.php:299
+msgid "Appended before the &lt;/body&gt; tag"
+msgstr "Επισυνάπτεται πριν από την &lt;/body&gt; tag"
+
+#: casino-forms.php:467
+msgid "This field is required."
+msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
+
+#: casino-forms.php:468
+msgid "Please enter a valid email address."
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+
+#: casino-forms.php:469
+msgid "Please specify a valid phone number"
+msgstr "Παρακαλείστε να προσδιορίσετε έναν έγκυρο αριθμό τηλεφώνου"
+
+#: casino-forms.php:470
+msgid "Please specify a valid mobile number"
+msgstr "Παρακαλείστε να προσδιορίσετε έναν έγκυρο αριθμό του κινητού"
+
+#: casino-forms.php:531
+msgid "Casino Forms"
+msgstr "Έντυπα καζίνο"
+
+#: casino-forms.php:536
+msgid "Casino Forms Settings"
+msgstr "Έντυπα καζίνο Ρυθμίσεις"
+
+#: casino-forms.php:546
+msgid "Global CSS"
+msgstr "Παγκόσμια CSS"
+
+#: includes/misc-functions.php:99
+msgid "Edit Play Page"
+msgstr "Επεξεργασία Play Σελίδα"
+
+#: templates/page-play.php:7
+msgid "Register"
+msgstr "ΕΓΓΡΑΦΗ"
+
+#: templates/page-play.php:8
+msgid "Start Playing in just a few seconds"
+msgstr "Ξεκινήστε Παίζοντας σε λίγα δευτερόλεπτα"
+
+#: templates/page-play.php:15
+msgid "Step 1 of 2"
+msgstr "Βήμα 1 απο 2"
+
+#: templates/page-play.php:16
+msgid "Step 2 of 2"
+msgstr "Βήμα 2 απο 2"
+
+#: templates/page-play.php:26 templates/page-play.php:51
+#: templates/page-play.php:63
+msgid "Exclusive"
+msgstr "Αποκλειστικός"
+
+#: templates/page-play.php:75
+msgid "Safe and Secure"
+msgstr "Σώος και ασφαλής"
+
+#: templates/page-play.php:78
+msgid "Quick and easy"
+msgstr "Γρήγορη και εύκολη"
+
+#: templates/play-form.php:3
+msgid "Name"
+msgstr "Όνομα"
+
+#: templates/play-form.php:4
+msgid "Enter your name"
+msgstr "Πληκτρολογήστε το όνομά σας"
+
+#: templates/play-form.php:8
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/play-form.php:8
+msgid "(Must be valid)"
+msgstr "(Πρέπει να ισχύει)"
+
+#: templates/play-form.php:9
+msgid "Enter your email"
+msgstr "Εισάγετε το email σας"
+
+#: templates/play-form.php:13 templates/play-form.php:15
+msgid "Select Country"
+msgstr "Επιλέξτε Χώρα"
+
+#: templates/play-form.php:29
+msgid "Mobile Number"
+msgstr "Αριθμός κινητού"
+
+#: templates/play-form.php:30
+msgid "Phone Number"
+msgstr "Τηλεφωνικό νούμερο"
+
+#: templates/play-form.php:31
+msgid "Area Code"
+msgstr "κώδικας περιοχής"
+
+#: templates/play-form.php:32
+msgid "Enter your mobile number"
+msgstr "Εισάγετε τον αριθμό του κινητού σας"
+
+#: templates/play-form.php:32
+msgid "Enter your phone number"
+msgstr "Εισάγετε τον αριθμό του τηλεφώνου σας"
+
+#: templates/play-form.php:37
+msgid "Continue to Step 2"
+msgstr "Συνεχίστε στο Βήμα 2"

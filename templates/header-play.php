@@ -24,15 +24,17 @@
 	<header id="header">
 		<div class="container">
 			<div class="row">
-				<div class="four columns">
+				<div class="branding four columns">
 					<?php cf_leadya_logo(); ?>
 				</div>
-				<div class="eight columns">
+				<div class="navigation eight columns">
 					<div class="toggle">
 						<span class="t1"></span>
 						<span class="t2"></span>
 						<span class="t3"></span>
 					</div>
+					
+					<?php do_action('icl_language_selector'); ?>
 					
 					<?php wp_nav_menu(array(
 						'theme_location' => 'play-primary-menu',

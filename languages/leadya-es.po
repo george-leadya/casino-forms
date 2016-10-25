@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Casino Forms 0.1\n"
-"POT-Creation-Date: 2016-08-03 13:43+0800\n"
-"PO-Revision-Date: 2016-08-03 13:46+0800\n"
+"POT-Creation-Date: 2016-09-22 16:21+0800\n"
+"PO-Revision-Date: 2016-10-24 11:10+0800\n"
 "Last-Translator: \n"
 "Language-Team: Leadya <team@leadya.com.ph>\n"
 "Language: es\n"
@@ -16,89 +16,117 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x;_n\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: casino-forms.php:82
+#: casino-forms.php:91
 msgid "Play Page Menu"
-msgstr "Juega página Menú"
+msgstr "Regístrate"
 
-#: casino-forms.php:139
+#: casino-forms.php:156
 msgid "Play Page Configuration"
 msgstr "Juega página de configuración"
 
-#: casino-forms.php:176
+#: casino-forms.php:194
 msgid "Casino Play Page"
 msgstr "Juego de casino Página"
 
-#: casino-forms.php:182
+#: casino-forms.php:200
 msgid "Include Theme Style?"
 msgstr "Incluir estilo del tema?"
 
-#: casino-forms.php:184
+#: casino-forms.php:202
 msgid "Add Styles from your current theme."
 msgstr "Añadir Estilos de su tema actual."
 
-#: casino-forms.php:189
+#: casino-forms.php:207
+msgid "Activate Links?"
+msgstr "Activar Enlaces?"
+
+#: casino-forms.php:209
+msgid "Enable Menu Item Links."
+msgstr "Habilitar Menú Enlaces artículo."
+
+#: casino-forms.php:214
 msgid "Logo"
 msgstr "Añadir Estilos de su tema actual."
 
-#: casino-forms.php:198
+#: casino-forms.php:223
 msgid "Set Logo"
 msgstr "conjunto de la insignia"
 
-#: casino-forms.php:199
+#: casino-forms.php:224
 msgid "Remove Logo"
 msgstr "Retire Logo"
 
-#: casino-forms.php:207
+#: casino-forms.php:232
 msgid "Form ID"
 msgstr "formulario de Identificación"
 
-#: casino-forms.php:214
+#: casino-forms.php:239
 msgid "Google Analytics ID"
 msgstr "identificación de Google Analytics"
 
-#: casino-forms.php:222
+#: casino-forms.php:247
 msgid "First Bonus Widget Contents"
 msgstr "En primer lugar bonificación Contenido Widget"
 
-#: casino-forms.php:236
+#: casino-forms.php:261
 msgid "Second Bonus Widget Contents"
 msgstr "En segundo lugar bonificación Contenido Widget"
 
-#: casino-forms.php:250
+#: casino-forms.php:275
 msgid "Footer Credits"
 msgstr "Créditos de pie de página"
 
-#: casino-forms.php:263
+#: casino-forms.php:288
 msgid "Custom Header Script"
 msgstr "Guión encabezado personalizado"
 
-#: casino-forms.php:266
+#: casino-forms.php:291
 msgid "Appended inside the &lt;head&gt; tag"
 msgstr "Anexar el interior de la sección &lt;head&gt; tag"
 
-#: casino-forms.php:271
+#: casino-forms.php:296
 msgid "Custom Footer Script"
 msgstr "Guión pie de página"
 
-#: casino-forms.php:274
+#: casino-forms.php:299
 msgid "Appended before the &lt;/body&gt; tag"
 msgstr "Anexa antes de la etiqueta &lt;/body&gt; tag"
 
-#: casino-forms.php:493
+#: casino-forms.php:467
+msgid "This field is required."
+msgstr "Este campo es requerido."
+
+#: casino-forms.php:468
+msgid "Please enter a valid email address."
+msgstr "Por favor, introduce una dirección de correo electrónico válida."
+
+#: casino-forms.php:469
+msgid "Please specify a valid phone number"
+msgstr "Por favor, especifique un número de teléfono válido"
+
+#: casino-forms.php:470
+msgid "Please specify a valid mobile number"
+msgstr "Por favor, especifique un número de móvil válido"
+
+#: casino-forms.php:531
 msgid "Casino Forms"
 msgstr "Formas de casino"
 
-#: casino-forms.php:498
+#: casino-forms.php:536
 msgid "Casino Forms Settings"
 msgstr "Formas de casino Ajustes"
 
-#: casino-forms.php:508
+#: casino-forms.php:546
 msgid "Global CSS"
 msgstr "CSS mundial"
 
+#: includes/misc-functions.php:99
+msgid "Edit Play Page"
+msgstr "Editar Juego Página"
+
 #: templates/page-play.php:7
 msgid "Register"
-msgstr "Registro"
+msgstr "REGÍSTRATE"
 
 #: templates/page-play.php:8
 msgid "Start Playing in just a few seconds"
@@ -135,7 +163,7 @@ msgstr "Introduzca su nombre"
 
 #: templates/play-form.php:8
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: templates/play-form.php:8
 msgid "(Must be valid)"
@@ -149,6 +177,10 @@ msgstr "Introduce tu correo electrónico"
 msgid "Select Country"
 msgstr "Seleccionar país"
 
+#: templates/play-form.php:29
+msgid "Mobile Number"
+msgstr "Número de teléfono móvil"
+
 #: templates/play-form.php:30
 msgid "Phone Number"
 msgstr "Número de teléfono"
@@ -156,6 +188,10 @@ msgstr "Número de teléfono"
 #: templates/play-form.php:31
 msgid "Area Code"
 msgstr "Codigo de AREA"
+
+#: templates/play-form.php:32
+msgid "Enter your mobile number"
+msgstr "Ingrese su numero celular"
 
 #: templates/play-form.php:32
 msgid "Enter your phone number"

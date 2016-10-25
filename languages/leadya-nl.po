@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Casino Forms 0.1\n"
-"POT-Creation-Date: 2016-08-03 13:56+0800\n"
-"PO-Revision-Date: 2016-08-03 13:58+0800\n"
+"POT-Creation-Date: 2016-09-22 16:26+0800\n"
+"PO-Revision-Date: 2016-10-19 09:45+0800\n"
 "Last-Translator: \n"
 "Language-Team: Leadya <team@leadya.com.ph>\n"
 "Language: nl\n"
@@ -16,85 +16,113 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x;_n\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: casino-forms.php:82
+#: casino-forms.php:91
 msgid "Play Page Menu"
 msgstr "Speel Pagina Menu"
 
-#: casino-forms.php:139
+#: casino-forms.php:156
 msgid "Play Page Configuration"
 msgstr "Speel Pagina Configuration"
 
-#: casino-forms.php:176
+#: casino-forms.php:194
 msgid "Casino Play Page"
 msgstr "Casino Play Pagina"
 
-#: casino-forms.php:182
+#: casino-forms.php:200
 msgid "Include Theme Style?"
 msgstr "Omvatten Theme Style?"
 
-#: casino-forms.php:184
+#: casino-forms.php:202
 msgid "Add Styles from your current theme."
 msgstr "Styles toevoegen van uw huidige thema."
 
-#: casino-forms.php:189
+#: casino-forms.php:207
+msgid "Activate Links?"
+msgstr "Links activeren?"
+
+#: casino-forms.php:209
+msgid "Enable Menu Item Links."
+msgstr "Enable menu-item Links."
+
+#: casino-forms.php:214
 msgid "Logo"
 msgstr "Logo"
 
-#: casino-forms.php:198
+#: casino-forms.php:223
 msgid "Set Logo"
 msgstr "Set Logo"
 
-#: casino-forms.php:199
+#: casino-forms.php:224
 msgid "Remove Logo"
 msgstr "Verwijder Logo"
 
-#: casino-forms.php:207
+#: casino-forms.php:232
 msgid "Form ID"
 msgstr "Form ID"
 
-#: casino-forms.php:214
+#: casino-forms.php:239
 msgid "Google Analytics ID"
 msgstr "Google Analytics ID"
 
-#: casino-forms.php:222
+#: casino-forms.php:247
 msgid "First Bonus Widget Contents"
 msgstr "Eerste Bonus Widget Inhoud"
 
-#: casino-forms.php:236
+#: casino-forms.php:261
 msgid "Second Bonus Widget Contents"
 msgstr "Tweede Bonus Widget Inhoud"
 
-#: casino-forms.php:250
+#: casino-forms.php:275
 msgid "Footer Credits"
 msgstr "Footer Credits"
 
-#: casino-forms.php:263
+#: casino-forms.php:288
 msgid "Custom Header Script"
 msgstr "Aangepaste koptekst Script"
 
-#: casino-forms.php:266
+#: casino-forms.php:291
 msgid "Appended inside the &lt;head&gt; tag"
 msgstr "Voegt binnen het &lt;head&gt; tag"
 
-#: casino-forms.php:271
+#: casino-forms.php:296
 msgid "Custom Footer Script"
 msgstr "Custom Footer Script"
 
-#: casino-forms.php:274
+#: casino-forms.php:299
 msgid "Appended before the &lt;/body&gt; tag"
 msgstr "Als bijlage bij de &lt;/body&gt; tag"
 
-#: casino-forms.php:493
+#: casino-forms.php:467
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: casino-forms.php:468
+msgid "Please enter a valid email address."
+msgstr "Gelieve een geldig e-mailadres in te geven."
+
+#: casino-forms.php:469
+msgid "Please specify a valid phone number"
+msgstr "Geef een geldig telefoonnummer"
+
+#: casino-forms.php:470
+msgid "Please specify a valid mobile number"
+msgstr "Geef een geldig mobiel nummer"
+
+#: casino-forms.php:531
 msgid "Casino Forms"
 msgstr "Casino Formulieren"
 
-#: casino-forms.php:498
+#: casino-forms.php:536
 msgid "Casino Forms Settings"
 msgstr "Casino Formulieren Instellingen"
 
-#: casino-forms.php:508
+#: casino-forms.php:546
 msgid "Global CSS"
 msgstr "Global CSS"
+
+#: includes/misc-functions.php:99
+msgid "Edit Play Page"
+msgstr "Bewerken Play Pagina"
 
 #: templates/page-play.php:7
 msgid "Register"
@@ -106,11 +134,11 @@ msgstr "Begin met spelen in slechts een paar seconden"
 
 #: templates/page-play.php:15
 msgid "Step 1 of 2"
-msgstr "Stap 1 van 2"
+msgstr "stap 1 van 2"
 
 #: templates/page-play.php:16
 msgid "Step 2 of 2"
-msgstr "Stap 2 van 2"
+msgstr "stap 2 van 2"
 
 #: templates/page-play.php:26 templates/page-play.php:51
 #: templates/page-play.php:63
@@ -149,6 +177,10 @@ msgstr "Vul uw e-mail"
 msgid "Select Country"
 msgstr "Selecteer land"
 
+#: templates/play-form.php:29
+msgid "Mobile Number"
+msgstr "Mobiel nummer"
+
 #: templates/play-form.php:30
 msgid "Phone Number"
 msgstr "Telefoonnummer"
@@ -156,6 +188,10 @@ msgstr "Telefoonnummer"
 #: templates/play-form.php:31
 msgid "Area Code"
 msgstr "netnummer"
+
+#: templates/play-form.php:32
+msgid "Enter your mobile number"
+msgstr "Voer uw mobiele nummer"
 
 #: templates/play-form.php:32
 msgid "Enter your phone number"

@@ -4,7 +4,7 @@ Donate link: http://paypal.me/georgeleis
 Tags: page template, casino, slot games, poker, free play, bonus, rewards, review
 Requires at least: 3.0.1
 Tested up to: 4.6
-Stable tag: 0.1.5
+Stable tag: 0.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,15 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+= 0.1.6 =
+* UPDATE: Language Translations
+* UPDATE: Full Responsive Layout
+* UPDATE: Added WPML Language switcher
+* FIX: GeoIP Services
+* FIX: Phone validation
+* FIX: WPML compatibility
+* FIX: Template Issues
 
 = 0.1.5 =
 * FIX: Mobile Layout

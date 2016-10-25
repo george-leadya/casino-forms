@@ -3,7 +3,7 @@
  * Plugin Name: Casino Forms
  * Plugin URI:  http://iamgeorgeleis.com/plugins/casino-forms/
  * Description: Allows WordPress pages to set as the play page (Page with Casino Affiliate Form)
- * Version:     0.1.5
+ * Version:     0.1.6
  * Author:      george_leis2000
  * Author URI:  http://iamgeorgeleis.com/
  * License:     GPL2
@@ -76,6 +76,7 @@ class Casino_Forms{
 		add_action( 'cf_leadya_head',	array( $this, 'leadya_head') );
 		add_action( 'cf_leadya_head',	array( $this, 'leadya_theme_style') );
 		add_action( 'cf_leadya_head',	array( $this, 'leadya_google_analytics') );
+		add_action( 'cf_leadya_head',	'wp_site_icon' );
 		
 		add_action( 'cf_leadya_footer',	array( $this, 'leadya_footer') );
 		
@@ -461,6 +462,13 @@ class Casino_Forms{
 		wp_register_script( 'jquery', trailingslashit(LEADYA_PLUGINURI) . 'js/jquery-3.0.0.min.js' );
 		wp_register_script( 'cf_leadya_validate', trailingslashit(LEADYA_PLUGINURI) . 'js/jquery.validate.js' );
 		wp_register_script( 'cf_leadya_main', trailingslashit(LEADYA_PLUGINURI) . 'js/main.js' );
+		
+		wp_localize_script( 'cf_leadya_main', 'conf', array(
+			'err_required_field' => __('This field is required.', 'leadya'),
+			'err_invalid_email' => __('Please enter a valid email address.', 'leadya'),
+			'err_invalid_phone' => __('Please specify a valid phone number', 'leadya'),
+			'err_invalid_mobile' => __('Please specify a valid mobile number', 'leadya')
+		));
 		
 		if( $this->clean === false ){
 			wp_print_scripts( 'jquery' );

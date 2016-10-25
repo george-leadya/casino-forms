@@ -26,10 +26,10 @@
 		?></select>
 	</fieldset>
 	
-	<fieldset>
-		<label for="form_user_phone"><?php _e('Phone Number', 'leadya'); ?></label>
+	<fieldset data-label="<?php _e('Phone Number', 'leadya'); ?>">
+		<label for="form_user_phone"><?php _e('Mobile Number', 'leadya'); ?></label>
 		<input type="text" name="form_user_area_code" id="form_user_area_code" placeholder="<?php _e('Area Code', 'leadya'); ?>" value="<?php echo cf_leadya_getAreaCode(); ?>" />
-		<input type="tel" name="form_user_phone" id="form_user_phone" value="" placeholder="<?php _e('Enter your phone number', 'leadya'); ?>" />
+		<input type="tel" name="form_user_phone" id="form_user_phone" value="" data-placeholder="<?php _e('Enter your phone number', 'leadya'); ?>" placeholder="<?php _e('Enter your mobile number', 'leadya'); ?>" />
 	</fieldset><?php
 	
 	cf_leadya_hidden_fields();

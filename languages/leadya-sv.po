@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Casino Forms 0.1\n"
-"POT-Creation-Date: 2016-08-03 14:15+0800\n"
-"PO-Revision-Date: 2016-08-03 14:18+0800\n"
+"POT-Creation-Date: 2016-09-22 16:52+0800\n"
+"PO-Revision-Date: 2016-10-19 09:43+0800\n"
 "Last-Translator: \n"
 "Language-Team: Leadya <team@leadya.com.ph>\n"
 "Language: sv\n"
@@ -16,89 +16,117 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x;_n\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: casino-forms.php:82
+#: casino-forms.php:91
 msgid "Play Page Menu"
 msgstr "Spela Sida Meny"
 
-#: casino-forms.php:139
+#: casino-forms.php:156
 msgid "Play Page Configuration"
 msgstr "Spela sidkonfiguration"
 
-#: casino-forms.php:176
+#: casino-forms.php:194
 msgid "Casino Play Page"
 msgstr "Kasino Play Page"
 
-#: casino-forms.php:182
+#: casino-forms.php:200
 msgid "Include Theme Style?"
 msgstr "Inkludera Tema Style?"
 
-#: casino-forms.php:184
+#: casino-forms.php:202
 msgid "Add Styles from your current theme."
 msgstr "Lägg Styles från ditt nuvarande tema."
 
-#: casino-forms.php:189
+#: casino-forms.php:207
+msgid "Activate Links?"
+msgstr "Aktivera Länkar?"
+
+#: casino-forms.php:209
+msgid "Enable Menu Item Links."
+msgstr "Aktivera Meny Funktion Links."
+
+#: casino-forms.php:214
 msgid "Logo"
 msgstr "Logotyp"
 
-#: casino-forms.php:198
+#: casino-forms.php:223
 msgid "Set Logo"
 msgstr "uppsättning Logo"
 
-#: casino-forms.php:199
+#: casino-forms.php:224
 msgid "Remove Logo"
 msgstr "ta bort Logo"
 
-#: casino-forms.php:207
+#: casino-forms.php:232
 msgid "Form ID"
 msgstr "Form ID"
 
-#: casino-forms.php:214
+#: casino-forms.php:239
 msgid "Google Analytics ID"
 msgstr "Google Analytics-ID"
 
-#: casino-forms.php:222
+#: casino-forms.php:247
 msgid "First Bonus Widget Contents"
 msgstr "Första Bonus Widget Innehåll"
 
-#: casino-forms.php:236
+#: casino-forms.php:261
 msgid "Second Bonus Widget Contents"
 msgstr "Andra Bonus Widget Innehåll"
 
-#: casino-forms.php:250
+#: casino-forms.php:275
 msgid "Footer Credits"
 msgstr "sidfot Credits"
 
-#: casino-forms.php:263
+#: casino-forms.php:288
 msgid "Custom Header Script"
 msgstr "Anpassa sidhuvud Script"
 
-#: casino-forms.php:266
+#: casino-forms.php:291
 msgid "Appended inside the &lt;head&gt; tag"
 msgstr "Bifoga i &lt;head&gt; tag"
 
-#: casino-forms.php:271
+#: casino-forms.php:296
 msgid "Custom Footer Script"
 msgstr "Anpassa sidfot Script"
 
-#: casino-forms.php:274
+#: casino-forms.php:299
 msgid "Appended before the &lt;/body&gt; tag"
 msgstr "Bifogat före &lt;/body&gt; tag"
 
-#: casino-forms.php:493
+#: casino-forms.php:467
+msgid "This field is required."
+msgstr "Detta fält är obligatoriskt."
+
+#: casino-forms.php:468
+msgid "Please enter a valid email address."
+msgstr "Ange en giltig e-postadress."
+
+#: casino-forms.php:469
+msgid "Please specify a valid phone number"
+msgstr "Vänligen ange ett giltigt telefonnummer"
+
+#: casino-forms.php:470
+msgid "Please specify a valid mobile number"
+msgstr "Vänligen ange ett giltigt mobilnummer"
+
+#: casino-forms.php:531
 msgid "Casino Forms"
 msgstr "casino Forms"
 
-#: casino-forms.php:498
+#: casino-forms.php:536
 msgid "Casino Forms Settings"
 msgstr "Casino Forms Inställningar"
 
-#: casino-forms.php:508
+#: casino-forms.php:546
 msgid "Global CSS"
 msgstr "global CSS"
 
+#: includes/misc-functions.php:99
+msgid "Edit Play Page"
+msgstr "Redigera Play Page"
+
 #: templates/page-play.php:7
 msgid "Register"
-msgstr "Registrera"
+msgstr "Registrera dig"
 
 #: templates/page-play.php:8
 msgid "Start Playing in just a few seconds"
@@ -135,7 +163,7 @@ msgstr "Ange ditt namn"
 
 #: templates/play-form.php:8
 msgid "Email"
-msgstr "E-post"
+msgstr "e-postadress"
 
 #: templates/play-form.php:8
 msgid "(Must be valid)"
@@ -149,6 +177,10 @@ msgstr "Ange din e-postadress"
 msgid "Select Country"
 msgstr "Välj land"
 
+#: templates/play-form.php:29
+msgid "Mobile Number"
+msgstr "Mobilnummer"
+
 #: templates/play-form.php:30
 msgid "Phone Number"
 msgstr "Telefonnummer"
@@ -156,6 +188,10 @@ msgstr "Telefonnummer"
 #: templates/play-form.php:31
 msgid "Area Code"
 msgstr "Riktnummer"
+
+#: templates/play-form.php:32
+msgid "Enter your mobile number"
+msgstr "Skriv in ditt mobilnummer"
 
 #: templates/play-form.php:32
 msgid "Enter your phone number"
