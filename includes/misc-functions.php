@@ -6,9 +6,6 @@
  * @param mixed $slug
  * @param string $name (default: '')
  */
-require_once( LEADYA_PLUGINDIR . '/includes/geoip/geoip.inc.php');
-require_once( LEADYA_PLUGINDIR . '/includes/geoip/geoipregionvars.php');
-
 function cf_leadya_get_template_part( $slug, $name = '' ) {
     $template = '';
 
@@ -135,6 +132,9 @@ function cf_leadya_getCountryCode(){
 	curl_close($ch);
 	
 	if( !$data->country_code ){
+		require_once( LEADYA_PLUGINDIR . '/includes/geoip/geoip.inc.php');
+		require_once( LEADYA_PLUGINDIR . '/includes/geoip/geoipregionvars.php');
+		
 		$gi = geoip_open( LEADYA_PLUGINDIR . '/includes/geoip/GeoLiteCity.dat', GEOIP_MEMORY_CACHE);
 		$country = geoip_record_by_addr($gi, $_SERVER['REMOTE_ADDR']);
 		geoip_close($gi);
