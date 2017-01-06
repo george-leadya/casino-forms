@@ -1,3 +1,7 @@
+= 0.1.7 =
+* URGENT UPDATE: Language Selector Fixed (Compatibility for WPML 3.6)
+* NEW: File /css/language-selector.css
+
 = 0.1.6 =
 * UPDATE: Language Translations
 * UPDATE: Full Responsive Layout
