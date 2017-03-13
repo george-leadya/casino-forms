@@ -3,7 +3,7 @@
  * Plugin Name: Casino Forms
  * Plugin URI:  http://iamgeorgeleis.com/plugins/casino-forms/
  * Description: Allows WordPress pages to set as the play page (Page with Casino Affiliate Form)
- * Version:     0.1.7
+ * Version:     0.1.8
  * Author:      george_leis2000
  * Author URI:  http://iamgeorgeleis.com/
  * License:     GPL2
@@ -437,7 +437,7 @@ class Casino_Forms{
 		wp_register_script( 'cf_leadya_modrnizr', trailingslashit(LEADYA_PLUGINURI) . 'js/modernizr.min.js' );
 		
 		if( $this->clean === false ){
-			if ( is_plugin_active( 'sitepress-multilingual-cms/sitepress.php' ) ) { //plugin is activated
+			/*if ( is_plugin_active( 'sitepress-multilingual-cms/sitepress.php' ) ) { //plugin is activated
 				$plugin_data = get_plugin_data( ABSPATH . 'wp-content/plugins/sitepress-multilingual-cms/sitepress.php', false, false );
 				
 				//wp_die( '<pre>' . print_r($plugin_data['Version'], true) . '</pre>' );
@@ -445,7 +445,7 @@ class Casino_Forms{
 				if( $plugin_data['Version'] > 3.5 ){
 					wp_print_styles( 'cf_leadya_wpml_css' );
 				}
-			}
+			}*/
 			
 			wp_print_styles( 'cf_leadya_googlefonts' );
 			wp_print_styles( 'cf_leadya_normalize' );

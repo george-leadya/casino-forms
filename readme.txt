@@ -56,6 +56,9 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
+= 0.1.8 =
+* UPDATE: Add Post/Page Template
+
 = 0.1.7 =
 * URGENT UPDATE: Language Selector Fixed (Compatibility for WPML 3.6)
 * NEW: File /css/language-selector.css
